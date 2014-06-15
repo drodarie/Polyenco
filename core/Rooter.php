@@ -2,7 +2,7 @@
 
 class Router{
     /**
-     * 
+     * Allows to parse an URL to get its parameters
      * @param type $url URL to parse
      * @param type $request Object to store the results
      */

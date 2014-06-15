@@ -7,7 +7,7 @@
         <link href="Librairies/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href="Contenu/style.css" rel="stylesheet" media="screen">
         <link rel="icon" type="image/png" href="Contenu/Images/favicon.ico" />
-        <title><?= $titre ?></title>
+        <title><?= isset($title_layout)?$title_layout : 'Polyenco' ?></title>
         <link rel="favicon" href="#">
     </head>
     <body>

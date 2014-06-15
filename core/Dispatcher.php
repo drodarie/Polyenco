@@ -15,14 +15,19 @@ class Dispatcher {
         $controller->render($this->request->action);
     }
     
+    /**
+     * Allows to generate an error page in case of routing problem
+     * @param type $message Type of error
+     */
     function error ($message){
-        header('HTTP/1.0 404 NOT_FOUND');
         $controller = new Controller($this->request);
-        $controller->setVars('message', $message);
-        $controller->render('/errors/404');
-        die();
+        $controller->e404($message);
     }
     
+    /**
+     * Allows to load the Controller depending on the user's request
+     * @return \name The Controller loaded
+     */
     function loadController (){
         $name = ucfirst($this->request->controller).'Controller';
         $file = ROOT.DS.controller.DS.$name.'.php';
