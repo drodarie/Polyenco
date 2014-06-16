@@ -6,9 +6,13 @@ class Model {
     public $dbname = 'default';
     public $table = false;
     public $database;
+    public $primaryKey = 'id';
     
     function __construct() {
-        $conf = Conf::$dbnames[$this->$dbname];
+        $conf = Conf::$dbnames[$this->$dbname];        
+        if ($this->table===false){
+            $this->table = strtolower(get_class($this)).'s';
+        }
         if (isset(Model::$connections[$this->$dbname])){
             $this->database = Model::$connections[$this->$dbname];
             return true;
@@ -25,9 +29,6 @@ class Model {
             if (Conf::$debug>=1){die($ex->getMessage());}
             else {die('Impossible de se connecter à la base de données');}
         }
-        if ($this->table===false){
-            $this->table = strtolower(get_class($this)).'s';
-        }
     }
     
     /**
@@ -36,10 +37,22 @@ class Model {
      * @return type Array of lines witch match the request
      */
     public function find($req){
-        $sql = 'SELECT * FROM '.$this->table.' as '.get_class($this);
+        $sql = 'SELECT ';
+        
+        if (isset($req['fields'])){
+            if (!is_array($req['fields'])){
+                $sql.= $req['fields'];
+            }
+            else{
+                $sql.= implode (', ',$req['fields']);
+            }
+        }else{
+            $sql.="*";
+        }
+        $sql.=' FROM '.$this->table.' as '.get_class($this);
         if (isset($req['conditions'])){
             $sql .= 'WHERE ';
-            if (is_array($req['conditions'])){
+            if (!is_array($req['conditions'])){
                 $sql.= $req['conditions'];
             }
             else{

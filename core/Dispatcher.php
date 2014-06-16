@@ -8,7 +8,7 @@ class Dispatcher {
         $this->request = new Request();
         Router::parse($this->request->url,$this->request);
         $controller = $this->loadController();
-        if (!in_array($this->request->action,get_class_methods($controller))){
+        if (!in_array($this->request->action,array_diff(get_class_methods($controller),get_class_methods('Controller')))){
             $this->error('Le controleur '.$this->request->controleur.' n\'a pas de methode '.$this->request->action);
         }
         call_user_func_array(array($controller,$this->request->action), $this->request->params);
