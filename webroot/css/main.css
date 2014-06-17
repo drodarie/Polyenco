@@ -25,12 +25,16 @@ html, hmtl a{
 }
 
 body{
-	background:#2F3238;
+	background:#FFFFFF;
 	color:#7F8289;
 	font-weight:300;
 	font-size:16px;
 	font-family: 'Titillium Web', sans-serif;
 	line-height:28px;
+}
+
+.row{
+	margin-left: 0;
 }
 
 
@@ -62,7 +66,10 @@ a > img {
 }
 
 img {
-	max-width: none;	
+	display: block;
+	width: 1000px;	
+   margin-left: auto;
+   margin-right: auto;
 }
 
 strong {
@@ -204,7 +211,7 @@ h4,
 h5,
 h6{
 	margin:0 0 20px 0;
-	color:#FFFFFF;
+	color:#000000;
 	font-weight:300;
 	font-family: 'Titillium Web', sans-serif;
 	line-height:1.5em;
@@ -514,7 +521,7 @@ header .sticky-nav.stuck {
 header #logo {
 	color: #FFFFFF;
 	float: left;
-	padding: 15px 0;
+	padding: 10px 0;
 	margin-left: 20px;
 }
 
@@ -528,15 +535,21 @@ header #logo a {
 	opacity: 1;
 	filter: alpha(opacity=100);
 	
-	-webkit-transition: opacity 0.25s ease-in-out 0s;	
-	   -moz-transition: opacity 0.25s ease-in-out 0s;
-		 -o-transition: opacity 0.25s ease-in-out 0s;
-		    transition: opacity 0.25s ease-in-out 0s;	
+	-moz-transition: all .3s; 
+   -webkit-transition: all .3s; 
+   -o-transition: all .3s; 
+   transition: all .3s;	
 }
 
 header #logo a:hover {
-	opacity: 0.65;
-	filter: alpha(opacity=65);	
+	width: 170px;
+	background-size: 170px;
+	padding: 7px 0;
+	
+	-moz-transition: all .3s; 
+   -webkit-transition: all .3s; 
+   -o-transition: all .3s; 
+   transition: all .3s;
 }
 
 nav#menu {
@@ -552,7 +565,6 @@ nav#menu #menu-nav {
 nav#menu #menu-nav li {
 	list-style: none;
 	display: inline-block;
-	margin-left: 20px;	
 }
 
 nav#menu #menu-nav li:first-child {
@@ -566,30 +578,59 @@ nav#menu #menu-nav li a {
 	line-height: 60px;
 	display: block;
 	text-transform: uppercase;
+	padding-left: 10px;
+	padding-right: 10px;
         
-        -moz-transition: all .5s; 
-        -webkit-transition: all .5s; 
-        -o-transition: all .5s; 
-        transition: all .5s;
+   -moz-transition: all .5s; 
+   -webkit-transition: all .5s; 
+   -o-transition: all .5s; 
+   transition: all .5s;
 }
 
 nav#menu #menu-nav li.current a,
-nav#menu #menu-nav li a:hover {
-	color: #000000;
-        
-        padding-top: 5px;
-        padding-left: 5px;
-        padding-right: 5px;
+nav#menu #menu-nav li a:hover{  
+   padding-left: 10px;
+   padding-right: 10px;
 	font-weight: 300;
 	line-height: 60px;
         
-        background: #FFFFFF;
+   background: #FFFFFF;
         
         
-        -moz-transition: all .3s; 
-        -webkit-transition: all .3s; 
-        -o-transition: all .3s; 
-        transition: all .3s;
+   -moz-transition: all .3s; 
+   -webkit-transition: all .3s; 
+   -o-transition: all .3s; 
+   transition: all .3s;
+}
+
+nav#menu #menu-nav li.current a#menu1,
+nav#menu #menu-nav li a#menu1:hover{
+	background: #004d95;
+}
+
+nav#menu #menu-nav li.current a#menu2, 
+nav#menu #menu-nav li a#menu2:hover{
+	background: #1f8f99;
+}
+
+nav#menu #menu-nav li.current a#menu3,
+nav#menu #menu-nav li a#menu3:hover{
+	background: #007c3c;
+}
+
+nav#menu #menu-nav li.current a#menu4,
+nav#menu #menu-nav li a#menu4:hover{
+	background: #D6B52E;
+}
+
+nav#menu #menu-nav li.current a#menu5,
+nav#menu #menu-nav li a#menu5:hover{
+	background: #D28800;
+}
+
+nav#menu #menu-nav li.current a#menu6,
+nav#menu #menu-nav li a#menu6:hover{
+	background: #C5362E;
 }
 
 
@@ -664,7 +705,6 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .page {
-	background: #2F3238;
 	padding: 100px 0;
 	position: relative;
 	z-index: 99;

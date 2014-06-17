@@ -7,6 +7,7 @@ Description: Personal Website and Portfolio of Alessio Atzeni
 Version: 1.0
 */
 
+@import "../css/superfish.css";
 
 /* ==================================================
    Basic Styles
@@ -24,12 +25,16 @@ html, hmtl a{
 }
 
 body{
-	background:#2F3238;
+	background:#FFFFFF;
 	color:#7F8289;
 	font-weight:300;
 	font-size:16px;
 	font-family: 'Titillium Web', sans-serif;
 	line-height:28px;
+}
+
+.row{
+	margin-left: 0;
 }
 
 
@@ -61,7 +66,10 @@ a > img {
 }
 
 img {
-	max-width: none;	
+	display: block;
+	width: 1000px;	
+   margin-left: auto;
+   margin-right: auto;
 }
 
 strong {
@@ -474,6 +482,21 @@ h3.spec {
 header {
 	width: 100%;
 	z-index: 99;
+        
+	/*opacity: 0.9;
+	display: block;
+	left: 0;
+	right: 0;
+	top: 0;
+	overflow: hidden;
+	background-color: #00284D;
+	transition: 0.2s ease;
+	-o-transition: 0.1s ease;
+	-webkit-transition: 0.2s ease;*/
+}
+
+header.over{
+    background-color: #303030;
 }
 
 header .sticky-nav {
@@ -498,29 +521,35 @@ header .sticky-nav.stuck {
 header #logo {
 	color: #FFFFFF;
 	float: left;
-	padding: 15px 0;
+	padding: 10px 0;
 	margin-left: 20px;
 }
 
 header #logo a {
 	background: url(../img/Titre.svg) no-repeat;
-	width: 96px;
-	height: 30px;
-	background-size: 100px;
+	width: 150px;
+	height: 50px;
+	background-size: 150px;
 	text-indent: -9999px;
 	display: block;
 	opacity: 1;
 	filter: alpha(opacity=100);
 	
-	-webkit-transition: opacity 0.25s ease-in-out 0s;	
-	   -moz-transition: opacity 0.25s ease-in-out 0s;
-		 -o-transition: opacity 0.25s ease-in-out 0s;
-		    transition: opacity 0.25s ease-in-out 0s;	
+	-moz-transition: all .3s; 
+   -webkit-transition: all .3s; 
+   -o-transition: all .3s; 
+   transition: all .3s;	
 }
 
 header #logo a:hover {
-	opacity: 0.65;
-	filter: alpha(opacity=65);	
+	width: 170px;
+	background-size: 170px;
+	padding: 7px 0;
+	
+	-moz-transition: all .3s; 
+   -webkit-transition: all .3s; 
+   -o-transition: all .3s; 
+   transition: all .3s;
 }
 
 nav#menu {
@@ -536,7 +565,6 @@ nav#menu #menu-nav {
 nav#menu #menu-nav li {
 	list-style: none;
 	display: inline-block;
-	margin-left: 50px;	
 }
 
 nav#menu #menu-nav li:first-child {
@@ -545,16 +573,64 @@ nav#menu #menu-nav li:first-child {
 
 nav#menu #menu-nav li a {
 	color: #FFFFFF;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 300;
 	line-height: 60px;
 	display: block;
 	text-transform: uppercase;
+	padding-left: 10px;
+	padding-right: 10px;
+        
+   -moz-transition: all .5s; 
+   -webkit-transition: all .5s; 
+   -o-transition: all .5s; 
+   transition: all .5s;
 }
 
 nav#menu #menu-nav li.current a,
-nav#menu #menu-nav li a:hover {
-	color: #DE5E60;
+nav#menu #menu-nav li a:hover{  
+   padding-left: 10px;
+   padding-right: 10px;
+	font-weight: 300;
+	line-height: 60px;
+        
+   background: #FFFFFF;
+        
+        
+   -moz-transition: all .3s; 
+   -webkit-transition: all .3s; 
+   -o-transition: all .3s; 
+   transition: all .3s;
+}
+
+nav#menu #menu-nav li.current a#menu1,
+nav#menu #menu-nav li a#menu1:hover{
+	background: #004d95;
+}
+
+nav#menu #menu-nav li.current a#menu2, 
+nav#menu #menu-nav li a#menu2:hover{
+	background: #1f8f99;
+}
+
+nav#menu #menu-nav li.current a#menu3,
+nav#menu #menu-nav li a#menu3:hover{
+	background: #007c3c;
+}
+
+nav#menu #menu-nav li.current a#menu4,
+nav#menu #menu-nav li a#menu4:hover{
+	background: #D6B52E;
+}
+
+nav#menu #menu-nav li.current a#menu5,
+nav#menu #menu-nav li a#menu5:hover{
+	background: #D28800;
+}
+
+nav#menu #menu-nav li.current a#menu6,
+nav#menu #menu-nav li a#menu6:hover{
+	background: #C5362E;
 }
 
 
@@ -629,7 +705,6 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .page {
-	background: #2F3238;
 	padding: 100px 0;
 	position: relative;
 	z-index: 99;
