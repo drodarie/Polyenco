@@ -18,7 +18,6 @@ BRUSHED.mobileNav = function(){
 		}
 	} else {
 		$('#navigation-mobile').css('display', 'none');
-		$('#mobile-nav').css('display', 'none');
 		if ($('#mobile-nav').hasClass('open')) {
 			$('#mobile-nav').removeClass('open');	
 		}
