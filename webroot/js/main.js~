@@ -18,6 +18,7 @@ BRUSHED.mobileNav = function(){
 		}
 	} else {
 		$('#navigation-mobile').css('display', 'none');
+		$('#mobile-nav').css('display', 'none');
 		if ($('#mobile-nav').hasClass('open')) {
 			$('#mobile-nav').removeClass('open');	
 		}
@@ -406,7 +407,7 @@ $(document).ready(function(){
 	Modernizr.load([
 	{
 		test: Modernizr.placeholder,
-		nope: '_include/js/placeholder.js', 
+		nope: '../webroot/js/placeholder.js', 
 		complete : function() {
 				if (!Modernizr.placeholder) {
 						Placeholders.init({

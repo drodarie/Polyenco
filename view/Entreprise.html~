@@ -22,7 +22,10 @@
 <!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
 
 <!-- Bootstrap -->
-<link href="../templates/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="../webroot/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href="../webroot/css/main.css" rel="stylesheet">
 
 <!-- Supersized -->
 <link href="../webroot/css/supersized.css" rel="stylesheet">
@@ -32,28 +35,20 @@
 <link href="../webroot/css/fancybox/jquery.fancybox.css" rel="stylesheet">
 
 <!-- Font Icons -->
-<link href="../webroot/css/fonts.css" rel="stylesheet">
+<link href="_include/css/fonts.css" rel="stylesheet">
 
 <!-- Shortcodes -->
 <link href="../webroot/css/shortcodes.css" rel="stylesheet">
 
 <!-- Responsive -->
-<link href="../templates/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="../webroot/css/bootstrap-responsive.min.css" rel="stylesheet">
 <link href="../webroot/css/responsive.css" rel="stylesheet">
-
-<!-- Supersized -->
-<link href="../webroot/css/supersized.css" rel="stylesheet">
-<link href="../webroot/css/supersized.shutter.css" rel="stylesheet">
-
-<!-- Main Style -->
-<link href="../webroot/css/main.css" rel="stylesheet">
 
 <!-- Google Font -->
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
 
 <!-- Fav Icon -->
-<link rel="icon" href="../webroot/img/Favicon.png">
-<link rel="shortcut icon" href="../webroot/img/Favicon.png" />
+<link rel="shortcut icon" href="#">
 
 <link rel="apple-touch-icon" href="#">
 <link rel="apple-touch-icon" sizes="114x114" href="#">
@@ -61,10 +56,11 @@
 <link rel="apple-touch-icon" sizes="144x144" href="#">
 
 <!-- Modernizr -->
-<script src="../templates/brushed/_include/js/modernizr.js"></script>
+<script src="../webroot/js/modernizr.js"></script>
+
 
 <!-- Analytics -->
-<script type="../templates/brushed/text/javascript">
+<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'Insert Your Code']);
@@ -115,45 +111,47 @@
 <!-- Fin du Header -->
 
 <!-- Section Accueil -->
-	<div id="my_carousel" class="carousel slide" data-ride="carousel">
-	<!-- Bulles -->
-	<ol class="carousel-indicators">
-	<li data-target="#my_carousel" data-slide-to="0" class="active"></li>
-	<li data-target="#my_carousel" data-slide-to="1"></li>
-	<li data-target="#my_carousel" data-slide-to="2"></li>
-	</ol>
-	<!-- Slides -->
-	<div class="carousel-inner">
-	<!-- Page 1 -->
-	<div class="item active">
-	<div class="carousel-page">
-	<img src="/images/bootstrap.png" class="img-responsive" style="margin:0px auto;" />
+<div id="Accueil" class="page">
+	<div id="carousel-accueil" class="carousel slide" data-ride="carousel">
+		<!-- Bulles -->
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-accueil" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-accueil" data-slide-to="1"></li>
+			<li data-target="#carousel-accueil" data-slide-to="2"></li>
+		</ol>
+		<!-- Slides -->
+		<div class="carousel-inner">
+			<!-- Page 1 -->
+			<div class="item active">
+				<div class="carousel-page">
+				<img src="/images/bootstrap.png" class="img-responsive" style="margin:0px auto;" />
+				</div>
+				<div class="carousel-caption">Page 1 de présentation</div>
+			</div>
+			<!-- Page 2 -->
+			<div class="item">
+				<div class="carousel-page"><img src="/images/twitter-bootstrap.jpg" class="img-responsive img-rounded"
+				style="margin:0px auto;" /></div>
+				<div class="carousel-caption">Page 2 de présentation</div>
+			</div>
+			<!-- Page 3 -->
+			<div class="item">
+				<div class="carousel-page">
+				<img src="/images/tablette.png" class="img-responsive img-rounded"
+				style="margin:0px auto;max-height:100%;" />
+				</div>
+				<div class="carousel-caption">Page 2 de présentation</div>
+			</div>
+		</div>
+		<!-- Contrôles -->
+		<a class="left carousel-control" href="#carousel-accueil" data-slide="prev">
+			<i class="font-icon-arrow-simple-left"></i>
+		</a>
+		<a class="right carousel-control" href="#carousel-accueil" data-slide="next">
+			<i class="font-icon-arrow-simple-left"></i>
+		</a>
 	</div>
-	<div class="carousel-caption">Page 1 de présentation</div>
-	</div>
-	<!-- Page 2 -->
-	<div class="item">
-	<div class="carousel-page"><img src="/images/twitter-bootstrap.jpg" class="img-responsive img-rounded"
-	style="margin:0px auto;" /></div>
-	<div class="carousel-caption">Page 2 de présentation</div>
-	</div>
-	<!-- Page 3 -->
-	<div class="item">
-	<div class="carousel-page">
-	<img src="/images/tablette.png" class="img-responsive img-rounded"
-	style="margin:0px auto;max-height:100%;" />
-	</div>
-	<div class="carousel-caption">Page 2 de présentation</div>
-	</div>
-	</div>
-	<!-- Contrôles -->
-	<a class="left carousel-control" href="#my_carousel" data-slide="prev">
-	<span class="glyphicon glyphicon-chevron-left"></span>
-	</a>
-	<a class="right carousel-control" href="#my_carousel" data-slide="next">
-	<span class="glyphicon glyphicon-chevron-right"></span>
-	</a>
-	</div>
+</div>
 <!-- Fin Section Accueil -->
 
 
@@ -196,7 +194,7 @@
 
 <!-- Js -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
-<script src="../templates/bootstrap/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="../webroot/js/bootstrap.min.js"></script> <!-- Bootstrap -->
 <script src="../webroot/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
 <script src="../webroot/js/waypoints.js"></script> <!-- WayPoints -->
 <script src="../webroot/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
