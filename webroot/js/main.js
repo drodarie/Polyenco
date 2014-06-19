@@ -10,7 +10,7 @@ var mobileMenuClone = $('#menu').clone().attr('id', 'navigation-mobile');
 BRUSHED.mobileNav = function(){
 	var windowWidth = $(window).width();
 	
-	if( windowWidth <= 979 ) {
+	if( windowWidth <= 962 ) {
 		if( $('#mobile-nav').length > 0 ) {
 			mobileMenuClone.insertAfter('#menu');
 			$('#mobile-nav').css('display', 'block');
