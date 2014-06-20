@@ -821,7 +821,7 @@ nav#menu #menu-nav li a#menu6:hover{
     text-align: center;
 }
 
-.bloc-presentation{
+#Presentation .container-fluid {
     margin-top: 10px;
     background-color: rgba(31, 143, 153, 0.5); 
     border-color: #0f474d;
@@ -832,7 +832,7 @@ nav#menu #menu-nav li a#menu6:hover{
     padding-right: 10px;
 }
 
-#Presentation .bloc-presentation img {
+#Presentation .container-fluid img {
 	float: left;
 	background-color: #0F474D;
 	max-width: 150px;
@@ -860,9 +860,8 @@ nav#menu #menu-nav li a#menu6:hover{
     min-height: 547px;
 }
 
-#Competences .bloc-competences img {
-    float: left;
-    background-color: #FFFFFF;
+#Competences img{
+    background-color: #000000;
     max-width: 150px;
 }
 

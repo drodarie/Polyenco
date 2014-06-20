@@ -154,12 +154,12 @@
             <div class="row">
                 <h1>Présentation</h1>
             </div>
-			<div class="row">
-				<img src="../webroot/img/Equipe.jpg" class="img-responsive" alt="Equipe">
-			</div>
+			<!-- <div class="row">
+				<img src="../webroot/img/Equipe.jpg" class="img-responsive" alt="Equipe 2014">
+			</div> -->
 			<div class="row">
 			  <div class="col-xs-12 col-sm-12 col-md-7">
-                              <div class="bloc-presentation">
+                              <div class="container-fluid">
                                         <img src="../webroot/img/Logo.svg" alt="Polyenco">
 			  		<h5>
 			  			Polyenco, la junior-entreprise de Polytech Lyon, est administrée par ses étudiants.
@@ -170,7 +170,7 @@
                               </div>
 			  </div>
 			  <div class="col-xs-12 col-sm-12 col-md-5">
-                              <div class="bloc-presentation">
+                              <div class="container-fluid">
                                         <img src="../webroot/img/J-E.png" alt="Junior Entreprise">
 			  		<h5>
 			  			Une <b>Junior-Entreprise</b> est une association économique et pédagogique à but non lucratif. 
@@ -192,77 +192,139 @@
             <div class="row">
                 <h1>Compétences</h1>
             </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="bloc-competences">
-                        <img src="../webroot/img/Informatique.svg" alt="Informatique">
-                        <h4>Informatique</br></h4>
-                        <h5>Le département informatique forme des ingénieurs compétents dans de nombreux domaines :</br>
-                        </br>- Gestion, création et administration de bases de données</br>
-                        - Analyse, programmation et développement d’applications web et mobiles sur tous types de support</br>
-                        - Connaissances approfondies en systèmes informatiques : systèmes d’exploitation, réseaux et sécurité</br>
-                        - Gestion de projets, aide à la décision pour la gérance financière et stratégique</br></br>
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="bloc-competences">
-                        <img src="../webroot/img/MAM.svg" alt="Mathématiques Appliquées et Modélisation">
-                        <h4>Mathématiques Appliquées et Modélisation</br></h4>
-                        <h5>Les compétences de ces ingénieurs reposent sur une culture des mathématiques appliquées et une maîtrise des outils informatiques :</br>
-                        </br>- Analyse des données statistiques industrielles et simulation numérique</br>
-                        - Elaboration de schémas de discréditation et des techniques de résolutions des grands systèmes d’équations</br>
-                        - Développement de solutions informatiques adaptées aux architectures logicielles et matérielles de calcul
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="bloc-competences">
-                        <img src="../webroot/img/GBM.svg" alt="Génie Biomédical">
-                        <h4>Génie Biomédical</br></h4>
-                        <h5>Cette formation  est notamment axée sur l’électronique, l’informatique et le biomédical :</br>
-                        </br>- Physique des capteurs, traitement du signal et de l’imagerie médicale</br>
-                        - Conduite de la politique d’investissement et de la maintenance des plateaux techniques hospitaliers en établissements de soins</br>
-                        - Conception et diffusion des dispositifs et équipements biomédicaux depuis leur création jusqu’à leur utilisation</br></br></br></br>
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="bloc-competences">
-                        <img src="../webroot/img/Mecanique.svg" alt="Mécanique">
-                        <h4>Mécanique</br></h4>
-                        <h5>L’ingénieur mécanicien est capable de gérer les aspects organisationnels, économiques et techniques d’un projet mécanique.</br>
-                        </br>- Développement, conception et mise au point de systèmes pluri-techniques</br>
-                        - Connaissances en mécanique des fluides, des solides, des structures et en analyse énergétique</br>
-                        - Modélisation, calculs et création de pièces mécaniques assistés par ordinateurs</br>
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="bloc-competences">
-                        <img src="../webroot/img/Materiaux.svg" alt="Matériaux et Ingénierie des Surfaces">
-                        <h4>Matériaux et Ingénierie des Surfaces</br></h4>
-                        <h5>Pôle d’activités pluridisciplinaires en science des matériaux et ingénierie des surfaces et interfaces :</br>
-                        </br>- Science des surfaces : caractérisation des performances, traitement et modification des surfaces</br>
-                        - Science des matériaux : recherche, développement et production de nouveaux (multi-)matériaux</br>
-                        - Conception assistée par ordinateur,  modélisation et qualité
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="bloc-competences">
-                        <img src="../webroot/img/SI.svg" alt="Systèmes Industriels">
-                        <h4>Systèmes Industriels</br></h4>
-                        <h5>Le département a pour but de former des ingénieurs capables de s’adapter à tous les milieux industriels.</br>
-                        </br>- Expertise  des méthodes et du management d’études ou de projets</br>
-                        - Nombreux domaines de compétences allant de la mécanique à l’électronique, l’automatisme ou bien l’informatique</br>
-                        - Liens importants avec la gestion de la production ou de la qualité en entreprises</br></br>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-</div>
+            
+	<!-- Start Accordion/Toggle Section -->
+        <div class="row"> 
+				<!-- Start Accordion -->			
+				<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="accordion-group">
+							<div class="accordion-heading accordionize">
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#oneArea">
+									<img src="../webroot/img/Informatique.svg" alt="Informatique"></br>
+									<h4>Informatique</h4></br>
+									<span class="font-icon-arrow-simple-down"></span>
+								</a>
+							</div>
+							<div id="oneArea" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<h5>Le département informatique forme des ingénieurs compétents dans de nombreux domaines :</br>
+									</br>- Gestion, création et administration de bases de données</br>
+									- Analyse, programmation et développement d’applications web et mobiles sur tous types de support</br>
+									- Connaissances approfondies en systèmes informatiques : systèmes d’exploitation, réseaux et sécurité</br>
+									- Gestion de projets, aide à la décision pour la gérance financière et stratégique</br></br>
+									</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+		
+					<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="accordion-group">
+								<div class="accordion-heading accordionize">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#twoArea">
+										<img src="../webroot/img/Informatique.svg" alt="Informatique"></br>
+										<h4>Mathématiques Appliquées et Modélisation</h4>
+										<span class="font-icon-arrow-simple-down"></span>
+									</a>
+								</div>
+								<div id="twoArea" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<h5>Les compétences de ces ingénieurs reposent sur une culture des mathématiques appliquées et une maîtrise des outils informatiques :</br>
+		                        </br>- Analyse des données statistiques industrielles et simulation numérique</br>
+		                        - Elaboration de schémas de discréditation et des techniques de résolutions des grands systèmes d’équations</br>
+		                        - Développement de solutions informatiques adaptées aux architectures logicielles et matérielles de calcul
+		                        </h5>
+									</div>
+								</div>
+							</div>
+					</div>
+		
+					<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="accordion-group">
+								<div class="accordion-heading accordionize">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#thirdArea">
+										<img src="../webroot/img/Informatique.svg" alt="Informatique"></br>
+										<h4>Génie Biomédical</h4></br>
+										<span class="font-icon-arrow-simple-down"></span>
+									</a>
+								</div>
+								<div id="thirdArea" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<h5>Cette formation  est notamment axée sur l’électronique, l’informatique et le biomédical :</br>
+		                        </br>- Physique des capteurs, traitement du signal et de l’imagerie médicale</br>
+		                        - Conduite de la politique d’investissement et de la maintenance des plateaux techniques hospitaliers en établissements de soins</br>
+		                        - Conception et diffusion des dispositifs et équipements biomédicaux depuis leur création jusqu’à leur utilisation</br></br></br></br>
+		                        </h5>
+									</div>
+								</div>
+							</div>
+						</div>
+		
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="accordion-group">
+								<div class="accordion-heading accordionize">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#fourthArea">
+										<img src="../webroot/img/Informatique.svg" alt="Informatique"></br>
+										<h4>Mécanique</h4></br>
+										<span class="font-icon-arrow-simple-down"></span>
+									</a>
+								</div>
+								<div id="fourthArea" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<h5>L’ingénieur mécanicien est capable de gérer les aspects organisationnels, économiques et techniques d’un projet mécanique.</br>
+		                        </br>- Développement, conception et mise au point de systèmes pluri-techniques</br>
+		                        - Connaissances en mécanique des fluides, des solides, des structures et en analyse énergétique</br>
+		                        - Modélisation, calculs et création de pièces mécaniques assistés par ordinateurs</br>
+		                        </h5>
+									</div>
+								</div>
+							</div>
+						</div>
+		
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="accordion-group">
+								<div class="accordion-heading accordionize">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#fifthArea">
+										<img src="../webroot/img/Informatique.svg" alt="Informatique"></br>
+										<h4>Matériaux et Ingénierie des Surfaces</h4>
+										<span class="font-icon-arrow-simple-down"></span>
+									</a>
+								</div>
+								<div id="fifthArea" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<h5>Pôle d’activités pluridisciplinaires en science des matériaux et ingénierie des surfaces et interfaces :</br>
+		                        </br>- Science des surfaces : caractérisation des performances, traitement et modification des surfaces</br>
+		                        - Science des matériaux : recherche, développement et production de nouveaux (multi-)matériaux</br>
+		                        - Conception assistée par ordinateur,  modélisation et qualité
+		                        </h5>
+									</div>
+								</div>
+							</div>
+						</div>
+		
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="accordion-group">
+								<div class="accordion-heading accordionize">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#sixthArea">
+										<img src="../webroot/img/Informatique.svg" alt="Informatique"></br>
+										<h4>Systèmes Industriels</h4></br>
+										<span class="font-icon-arrow-simple-down"></span>
+									</a>
+								</div>
+								<div id="sixthArea" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<h5>Le département a pour but de former des ingénieurs capables de s’adapter à tous les milieux industriels.</br>
+		                        </br>- Expertise  des méthodes et du management d’études ou de projets</br>
+		                        - Nombreux domaines de compétences allant de la mécanique à l’électronique, l’automatisme ou bien l’informatique</br>
+		                        - Liens importants avec la gestion de la production ou de la qualité en entreprises</br></br>
+		                        </h5>
+									</div>
+								</div>
+							</div>
+						</div>
+			</div>
+      </div>
+ </div>
 <!-- Fin Section Compétences -->
 
 
@@ -288,7 +350,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6">
                     <div class="bloc-methodologie">
                     <h4>Evolution d'une étude</br></h4>
-                    <img src="../webroot/img/Methodologie.svg" alt="Méthodologie">
+                    <!-- <img src="../webroot/img/Methodologie.svg" alt="Méthodologie"> -->
                     </div>
                 </div>
             </div>
@@ -354,4 +416,5 @@
 <script src="../webroot/js/main.js"></script> <!-- Default JS -->
 <!-- End Js -->
 
-</body>
+</body><img src="../webroot/img/Informatique.svg" alt="Informatique">
+				<!-- Start Accordion -->
