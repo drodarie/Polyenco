@@ -98,7 +98,7 @@
         
         <nav id="menu">
         	<ul id="menu-nav">
-            	<li class="current"><a href="#Accueil" id="menu1">Accueil</a></li>
+            	<li class="current"><a href="#home-slider" id="menu1">Accueil</a></li>
                 <li><a href="#Presentation" id="menu2">Présentation</a></li>
                 <li><a href="#Competences" id="menu3">Compétences</a></li>
                 <li><a href="#Methodologie" id="menu4">Méthodologie</a></li>
@@ -114,7 +114,6 @@
 <!-- Homepage Slider -->
 <div id="home-slider">	
     <div class="overlay"></div>
-
     <div class="slider-text">
     	<div id="slidecaption"></div>
     </div>   
@@ -132,11 +131,7 @@
 
 
 <!-- Section Accueil -->
-<div id="Accueil" class="page">
-    
-    
-       
-    
+<div id="Accueil">
     <div id="social-area" class="page">
         <div class="container">
             <div class="row">
