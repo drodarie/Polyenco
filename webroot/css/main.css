@@ -813,6 +813,7 @@ nav#menu #menu-nav li a#menu6:hover{
 	margin: 0;
 }
 
+
 /* ==================================================
    Section Presentation
 ================================================== */
@@ -833,9 +834,11 @@ nav#menu #menu-nav li a#menu6:hover{
 
 #Presentation .bloc-presentation img {
 	float: left;
-	background-color: #FFFFFF;
+	background-color: #0F474D;
 	max-width: 150px;
 	max-height: 150px;
+	border-radius: 70%;
+	margin-right: 10px;
 }
 
 

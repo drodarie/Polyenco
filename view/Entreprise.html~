@@ -133,18 +133,16 @@
 <!-- Section Accueil -->
 <div id="Accueil">
     <div id="social-area" class="page">
-        <div class="container">
-            <div class="row">
-                 <nav id="social">
-                     <ul>
-                         <li><a href="https://twitter.com/Polyenco"><span class="font-icon-social-twitter"></span></a></li>
-                         <li><a href="https://www.facebook.com/Polyenco"><span class="font-icon-social-facebook"></span></a></li>
-                         <li><a href="https://plus.google.com/112643057659135338279/posts"><span class="font-icon-social-google-plus"></span></a></li>
-                         <li><a href="https://www.linkedin.com/company/1470627?trk=tyah&trkInfo=tarId%3A1393405148288%2Ctas%3APolyenco%2Cidx%3A2-1-2"><span class="font-icon-social-linkedin"></span></a></li>
-                     </ul>
-                 </nav>
-            </div>
-        </div>
+		      <div class="row">
+		           <nav id="social">
+		               <ul>
+		                   <li><a href="https://twitter.com/Polyenco"><span class="font-icon-social-twitter"></span></a></li>
+		                   <li><a href="https://www.facebook.com/Polyenco"><span class="font-icon-social-facebook"></span></a></li>
+		                   <li><a href="https://plus.google.com/112643057659135338279/posts"><span class="font-icon-social-google-plus"></span></a></li>
+		                   <li><a href="https://www.linkedin.com/company/1470627?trk=tyah&trkInfo=tarId%3A1393405148288%2Ctas%3APolyenco%2Cidx%3A2-1-2"><span class="font-icon-social-linkedin"></span></a></li>
+		               </ul>
+		           </nav>
+		      </div>
     </div>
 </div>
 <!-- Fin Section Accueil -->
