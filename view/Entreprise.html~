@@ -24,6 +24,10 @@
 <!-- Bootstrap -->
 <link href="../webroot/css/bootstrap.min.css" rel="stylesheet">
 
+<!-- Responsive -->
+<link href="../webroot/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="../webroot/css/responsive.css" rel="stylesheet">
+
 <!-- Main Style -->
 <link href="../webroot/css/main.css" rel="stylesheet">
 
@@ -39,10 +43,6 @@
 
 <!-- Shortcodes -->
 <link href="../webroot/css/shortcodes.css" rel="stylesheet">
-
-<!-- Responsive -->
-<link href="../webroot/css/bootstrap-responsive.min.css" rel="stylesheet">
-<link href="../webroot/css/responsive.css" rel="stylesheet">
 
 <!-- Google Font -->
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
@@ -123,7 +123,7 @@
         <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
         <ul id="slide-list"></ul>
         
-        <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
+        <a id="nextsection" href="#Presentation"><i class="font-icon-arrow-simple-down"></i></a>
     </div>
 </div>
 <!-- Fin Homepage Slider -->
@@ -135,16 +135,14 @@
     <div id="social-area" class="page">
         <div class="container">
             <div class="row">
-                <div class="span12">
-                    <nav id="social">
-                        <ul>
-                            <li><a href="https://twitter.com/Polyenco"><span class="font-icon-social-twitter""></span></a></li>
-                            <li><a href="https://www.facebook.com/Polyenco"><span class="font-icon-social-facebook"></span></a></li>
-                            <li><a href="https://plus.google.com/112643057659135338279/posts"><span class="font-icon-social-google-plus"></span></a></li>
-                            <li><a href="https://www.linkedin.com/company/1470627?trk=tyah&trkInfo=tarId%3A1393405148288%2Ctas%3APolyenco%2Cidx%3A2-1-2"><span class="font-icon-social-linkedin"></span></a></li>
-                        </ul>
-                    </nav>
-                </div>
+                 <nav id="social">
+                     <ul>
+                         <li><a href="https://twitter.com/Polyenco"><span class="font-icon-social-twitter"></span></a></li>
+                         <li><a href="https://www.facebook.com/Polyenco"><span class="font-icon-social-facebook"></span></a></li>
+                         <li><a href="https://plus.google.com/112643057659135338279/posts"><span class="font-icon-social-google-plus"></span></a></li>
+                         <li><a href="https://www.linkedin.com/company/1470627?trk=tyah&trkInfo=tarId%3A1393405148288%2Ctas%3APolyenco%2Cidx%3A2-1-2"><span class="font-icon-social-linkedin"></span></a></li>
+                     </ul>
+                 </nav>
             </div>
         </div>
     </div>

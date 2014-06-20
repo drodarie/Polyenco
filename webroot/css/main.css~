@@ -304,6 +304,7 @@ h3.spec {
 	position: relative;
 	overflow: hidden;
 	height: 100%;
+	margin-top: -60px;
 }
 
 #home-slider .overlay { 
@@ -313,7 +314,7 @@ h3.spec {
 	background: #26292E;
 	opacity: 0.7;
 	filter: alpha(opacity=70);
-	z-index: -1;
+	z-index: 0;
 }
 
 #home-slider .slider-text {
@@ -769,9 +770,10 @@ nav#menu #menu-nav li a#menu6:hover{
 #Accueil .page{
 	position: absolute;
 	z-index: 100;
-	top: 80%;
+	top: 70%;
 	background: none;
-	
+	text-align: center;
+	min-height: 0px;
 }
 
 
@@ -1292,12 +1294,12 @@ nav#menu #menu-nav li a#menu6:hover{
 ================================================== */
 
 #social-area {
-    text-align: center;
-    background:
+    background: none;
+    width: 100%
 }
 
 #social-area #social ul {
-	margin: 0;
+	margin: 0 0 0 0;
 	padding: 0;
 }
 

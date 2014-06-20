@@ -80,7 +80,8 @@ BRUSHED.slider = function(){
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
 											{image : '../webroot/img/slider/Lyon.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''},
-											{image : '../webroot/img/slider/Bureau.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''} 
+											{image : '../webroot/img/slider/Bureau.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''},
+											{image : '../webroot/img/slider/Lyon.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''} 
 									],
 									
 		// Theme Options			   
