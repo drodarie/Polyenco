@@ -11,9 +11,9 @@
               des projets dans ces domaines de compétences" />
         <meta name="keywords" content="polyenco, junior entreprise, CNJE, polytech, étudiant,
               association, projet, informatique, mécanique, industrie, matériaux, biomédical" />
-        <meta name="language" content="fr-FR">
+        <meta name="language" content="fr-FR" />
         <meta name="description" content="Site Web de la Junior-Entreprise Polyenco" />
-        <meta name="author" content="Etudiants de Polyenco"
+        <meta name="author" content="Etudiants de Polyenco" />
         
         <title><?= isset($title_layout) ? $title_layout : 'Polyenco' ?></title> 
         
