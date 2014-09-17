@@ -1,7 +1,2 @@
-SetEnv PHP_VER 5
-Options +FollowSymlinks 
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^junior-polyenco.fr$ 
-RewriteRule ^(.*)   http://www.junior-polyenco.fr/$1  [QSA,L,R=301]
-RewriteRule ^(.*) site-polyenco/$1 [NC,L]
-RewriteRule ^(.*)\.html site-polyenco/$1.php [NC,L]
+RewriteEngine On
+RewriteRule (.*) webroot/index.php/$1 [L]
