@@ -155,6 +155,18 @@
     }
 }
 
+.accordion-inner-text{
+    color: #000 ;
+    text-transform:none ;
+    text-align: justify ;
+    font-size: 18px ;
+}
+ul.accordion-inner-list li{
+    margin-left:10px ;
+}
+
+
+
 /* ==================================================
    Section Méthodologie
 ================================================== */
@@ -230,10 +242,11 @@
 .map{
     width:100%; 
     height: 300px;
+    margin-top: 20px;
 }
 
-.adresse{
-    text-align: justify;
+.adresse li{
+    text-align: center !important;
 }
 
 #Contact h5, #Contact h2{
@@ -324,4 +337,25 @@ color: #000;
     #Presentation .col-md-5{
         padding-left: 0px;
     }
+}
+
+
+.big-list-style-none li{
+    color: #000 ;
+    text-transform:none ;
+    text-align: justify ;
+    font-size: 18px ;
+    list-style-type:none; 
+}
+
+.small-list-margin li{
+    margin-top: 10px;
+}
+
+.big-list-margin li{
+    margin-top:20px;
+}
+
+.list-style-none{
+    list-style: none;
 }
