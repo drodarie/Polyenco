@@ -80,9 +80,9 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-                                                                                        {image : path+'/img/slider/Fond.jpg', title : '<div class="slide-content"><img src="'+path+'/img/slider/logo_noir.png" style="opacity:0.5; position:absolute; left:10%; right:auto; width:80%;"/></div>', thumb : '', url : ''},
-											{image : path+'/img/slider/VueLyon.jpg', title : '<div class="slide-content">Poly Engineering Consulting</div></div>', thumb : '', url : ''},
-											{image : path+'/img/slider/Lyon.jpg', title : '<div class="slide-content">Besoin d\'une étude ?</br>Budget serré ?</div></div>', thumb : '', url : ''}
+                                                                                        {image : path+'/webroot/img/slider/Fond.jpg', title : '<div class="slide-content"><img src="'+path+'/webroot/img/slider/logo_noir.png" style="opacity:0.5; position:absolute; left:10%; right:auto; width:80%;"/></div>', thumb : '', url : ''},
+											{image : path+'/webroot/img/slider/VueLyon.jpg', title : '<div class="slide-content">Poly Engineering Consulting</div></div>', thumb : '', url : ''},
+											{image : path+'/webroot/img/slider/Lyon.jpg', title : '<div class="slide-content">Besoin d\'une étude ?</br>Budget serré ?</div></div>', thumb : '', url : ''}
 									],
 
 		// Theme Options			   
@@ -172,7 +172,7 @@ BRUSHED.fancyBox = function(){
 					this.title = '<h4>' + this.title + '</h4>' + '<p>' + $(this.element).parent().find('img').attr('alt') + '</p>';
 				},
 				helpers : {
-					title : { type: 'inside' },
+					title : { type: 'inside' }
 				}
 			});
 

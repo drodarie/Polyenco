@@ -15,4 +15,4 @@ class Conf {
     );
 
 }
-Router::link("", "Accueil/index");
+Router::link("", "Entreprise/index");
