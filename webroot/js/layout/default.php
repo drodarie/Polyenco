@@ -98,6 +98,8 @@
         <!-- End Footer -->
 
         <input type="hidden" id="webroot" value="<?= BASE_URL ?>">
+
+
         <script src="<?= JS.'download_text.js'?>"></script> <!-- JS for displaying the text of download -->
         <script src="<?= JS.'form_entreprise.js'?>"></script> <!-- JS for the Form -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
