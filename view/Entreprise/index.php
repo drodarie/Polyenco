@@ -472,9 +472,10 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12">
                         <div class="col-xs-8 col-xs-offset-2 col-sm-12 col-sm-offset-0 col-md-8 col-md-offset-2" id="ExtraInfos">
-                            <img src="<?= IMG . 'adresse-mail.png' ?>" class="img-responsive" alt="adresse-mail">
-                            <img src="<?= IMG . 'telephone.png' ?>" class="img-responsive" alt="telephone">
-                        </div>
+                            <h4>
+                                Mail : contact.polyenco@gmail.com <br>
+                                Téléphone : +33 (0)4 72 43 10 93
+                            </h4>
                         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.5900219695504!2d4.86832999999999!3d45.779405999999916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea98de9f04fb%3A0xa34cbe87f6c6b03b!2sPolytech+Lyon!5e0!3m2!1sfr!2sfr!4v1407505236793"></iframe>
                     </div>
                 </div>

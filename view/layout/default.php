@@ -7,14 +7,22 @@
     <head>
         <!-- Meta Tags -->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="Polyenco est une Junior-Entreprise pouvant réaliser
+              des projets dans ces domaines de compétences" />
+        <meta name="keywords" content="polyenco, junior entreprise, CNJE, polytech, étudiant,
+              association, projet, informatique, mécanique, industrie, matériaux, biomédical" />
+        <meta name="language" content="fr-FR" />
+        <meta name="description" content="Site Web de la Junior-Entreprise Polyenco" />
+        <meta name="author" content="Etudiants de Polyenco" />
+        
         <title><?= isset($title_layout) ? $title_layout : 'Polyenco' ?></title> 
-
-        <meta name="description" content="Site Web de la Junior-Entreprise Polyenco" /> 
+        
 
         <!-- Mobile Specifics -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="HandheldFriendly" content="true"/>
-        <meta name="MobileOptimized" content="320"/>   
+        <meta name="MobileOptimized" content="320"/>
+        
         <!-- Mobile Internet Explorer ClearType Technology -->
         <!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
 
