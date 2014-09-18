@@ -251,7 +251,7 @@
                             <li> Rester en contact permanent avec vous pour être à l'écoute de vos besoins.</li>
                             <li> Effectuer un suivi constant de la qualité des documents et rendus qui vous seront adressés</li>
                             <li> Respecter les termes de confidentialité de toutes les études que vous nous confierez.</li>
-                        </ul></h4>
+                        </ul>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
