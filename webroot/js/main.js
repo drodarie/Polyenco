@@ -82,7 +82,7 @@ BRUSHED.slider = function(){
 		slides 					:  	[			// Slideshow Images
                                                                                         {image : path+'/img/slider/Fond.jpg', title : '<div class="slide-content"><img src="'+path+'/img/slider/logo_noir.png" style="opacity:0.5; position:absolute; left:10%; right:auto; width:80%;"/></div>', thumb : '', url : ''},
 											{image : path+'/img/slider/VueLyon.jpg', title : '<div class="slide-content">Poly Engineering Consulting</div></div>', thumb : '', url : ''},
-											{image : path+'/img/slider/Lyon.jpg', title : '<div class="slide-content">Besoin d\'une étude ?</br>Budget serré ?</div></div>', thumb : '', url : ''}
+											{image : path+'/img/slider/Lyon.jpg', title : '<div class="slide-content">Besoin d\'une étude ?<br>Budget serré ?</div></div>', thumb : '', url : ''}
 									],
 
 		// Theme Options			   
