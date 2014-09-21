@@ -106,7 +106,7 @@ var punct = "!\"\\#$%&'()*+,\\-.\\\/:;?@[\\\\\\]_`{|}^=~",
             
             function testMessage(){
                 var message = document.getElementById("contact_message");
-                if (message.value.length<20){
+                if (message.value.length<2){
                     document.getElementById("reponse").innerHTML=erreur
                             + "Le champ Message est trop court.</div>";
                     addError(message.parentNode);
