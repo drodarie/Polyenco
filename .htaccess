@@ -1,0 +1,3 @@
+SetEnv PHP_VER 5
+Options +FollowSymlinks 
+ErrorDocument 404 http://www.junior-polyenco.fr/404.html
