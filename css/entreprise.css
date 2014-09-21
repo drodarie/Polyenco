@@ -283,7 +283,10 @@ ul.accordion-inner-list li{
 }
 
 #ExtraInfos{
-	padding-bottom:15px;
+    padding-bottom:15px;       
+}
+#ExtraInfos h4{
+    margin-top: 15px;
 }
 
 #contact-form input,
