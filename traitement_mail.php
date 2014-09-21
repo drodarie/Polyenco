@@ -19,18 +19,18 @@ if(isset($_POST['contact_nom'])&& isset($_POST['contact_prenom'])&& isset($_POST
 
     if (mail($destinataire,$subject,$body,$headers)) 
          { 
-              header('Location: index.php#Contact?envoi=0');
+              header('Location: index.php?envoi=0/#Contact');
                       exit();
          } 
          else 
          { 
-             header('Location: index.php#Contact?envoi=1');
+             header('Location: index.php?envoi=1/#Contact');
                       exit();
          } 
 }
 else
 { 
-              header('Location: index.php#Contact?envoi=1');
+              header('Location: index.php?envoi=1/#Contact');
                       exit();
 } 
 ?>
