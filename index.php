@@ -93,7 +93,7 @@
         <!-- end HTML5 for IE -->
     </head>
 
-    <body style="background-image: 'img/slider/Fond.jpg'">
+    <body style="background-image:'img/slider/Fond.jpg'">
         <!-- Splash Screen: écran d'attente -->
         <div class="ole">
             <section id="jSplash">
@@ -148,10 +148,10 @@
                 <div class="row">
                     <nav id="social">
                         <ul>
-                            <li><a href="https://twitter.com/Polyenco"><span class="font-icon-social-twitter"></span></a></li>
-                            <li><a href="https://www.facebook.com/Polyenco"><span class="font-icon-social-facebook"></span></a></li>
-                            <li><a href="https://plus.google.com/112643057659135338279/posts"><span class="font-icon-social-google-plus"></span></a></li>
-                            <li><a href="https://www.linkedin.com/company/1470627?trk=tyah&amp;trkInfo=tarId%3A1393405148288%2Ctas%3APolyenco%2Cidx%3A2-1-2"><span class="font-icon-social-linkedin"></span></a></li>
+                            <li><a href="https://twitter.com/Polyenco" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                            <li><a href="https://www.facebook.com/Polyenco" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                            <li><a href="https://plus.google.com/112643057659135338279/posts" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                            <li><a href="https://www.linkedin.com/company/1470627?trk=tyah&amp;trkInfo=tarId%3A1393405148288%2Ctas%3APolyenco%2Cidx%3A2-1-2" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
                         </ul>
                     </nav>
                 </div>
@@ -188,7 +188,7 @@
                             <li>Une <b>Junior-Entreprise</b> est une association économique et pédagogique à but non lucratif.</li>
                             <li>Dépendante d'une école ou d'une université, elle permet aux étudiants de réaliser des études grâce aux compétences acquises au sein de leur établissement, et cela pour une clientèle très variée.</li>
                             <li>L'ensemble des Junior-entreprise est regroupé autour de la Confédération Nationale des Junior-Entreprises (CNJE) dont le rôle est d'assurer que ces associations respectent les chartes de qualité et de déontologie.</li>
-                            <li>Plus d'informations sur <a href="http://www.junior-entreprises.com/">le site officiel de la CNJE</a>.</li>
+                            <li>Plus d'informations sur <a href="http://www.junior-entreprises.com/" target="_blank">le site officiel de la CNJE</a>.</li>
                         </ul>
                     </div>
                 </div>
