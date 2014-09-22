@@ -7,10 +7,11 @@
     <head>
         <!-- Meta Tags -->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="description" content="Polyenco est une Junior-Entreprise pouvant réaliser
-              des projets dans ces domaines de compétences" />
-        <meta name="keywords" content="polyenco, junior entreprise, CNJE, polytech, étudiant,
-              association, projet, informatique, mécanique, industrie, matériaux, biomédical" />
+        <meta name="description" content="Polyenco est la Junior-Entreprise de Polytech Lyon. 
+		Polyenco met au service des entreprises le savoir-faire des élèves de Polytech, pour réaliser
+              leurs projets en ingénierie." />
+        <meta name="keywords" content="polyenco, junior, entreprise, CNJE, polytech, étudiant,
+              association, projet, informatique, mécanique, industrie, matériaux, biomédical, Lyon, je" />
         <meta name="language" content="fr-FR" />
         <meta name="description" content="Site Web de la Junior-Entreprise Polyenco" />
         <meta name="author" content="Etudiants de Polyenco" />
@@ -93,7 +94,7 @@
         <!-- end HTML5 for IE -->
     </head>
 
-    <body style="background-image:'img/slider/Fond.jpg'">
+    <body>
         <!-- Splash Screen: écran d'attente -->
         <div class="ole">
             <section id="jSplash">
