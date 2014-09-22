@@ -2,9 +2,12 @@
    Global
 ================================================== */
 #bloc{
-	background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
+#bloc-engagements{
+    background-color: rgba(255, 255, 255, 0.4);
+}
 /* ==================================================
    Section Presentation
 ================================================== */
@@ -171,7 +174,7 @@ ul.accordion-inner-list li{
    Section Méthodologie
 ================================================== */
 
-#Methodologie #bloc{
+#Methodologie #bloc-engagements{
 	
     margin-top: 10px;
     padding-top: 10px;
@@ -184,11 +187,11 @@ ul.accordion-inner-list li{
     border-radius: 4px;
 }
 
-#Methodologie #bloc h4{
+#Methodologie #bloc-engagements h4{
     text-align: left;
 }
 
-#Methodologie #bloc li{
+#Methodologie #bloc-engagements li{
 	margin-left: 20px;
 }
 
@@ -362,3 +365,4 @@ color: #000;
 .list-style-none{
     list-style: none;
 }
+

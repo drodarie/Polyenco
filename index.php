@@ -11,7 +11,7 @@
               des projets dans ces domaines de compétences" />
         <meta name="keywords" content="polyenco, junior entreprise, CNJE, polytech, étudiant,
               association, projet, informatique, mécanique, industrie, matériaux, biomédical" />
-        <meta name="language" content="fr-FR" />
+        <meta http-equiv="Content-Language" content="fr-FR" />
         <meta name="description" content="Site Web de la Junior-Entreprise Polyenco" />
         <meta name="author" content="Etudiants de Polyenco" />
 
@@ -230,7 +230,6 @@
                                         <li> Connaissances approfondies en systèmes informatiques : systèmes d’exploitation, réseaux et sécurité</li>
                                         <li> Gestion de projets, aide à la décision pour la gérance financière et stratégique</li>
                                     </ul>   
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -254,7 +253,6 @@
                                         <li> Elaboration de schémas de discréditation et des techniques de résolutions des grands systèmes d’équations</li> 
                                         <li> Développement de solutions informatiques adaptées aux architectures logicielles et matérielles de calcul</li>
                                     </ul>   
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -278,7 +276,6 @@
                                         <li> Conduite de la politique d’investissement et de la maintenance des plateaux techniques hospitaliers en établissements de soins</li> 
                                         <li> Conception et diffusion des dispositifs et équipements biomédicaux depuis leur création jusqu’à leur utilisation</li>
                                     </ul>   
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -303,7 +300,6 @@
                                         <li> Connaissances en mécanique des fluides, des solides, des structures et en analyse énergétique</li> 
                                         <li> Modélisation, calculs et création de pièces mécaniques assistés par ordinateurs</li>
                                     </ul>   
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -327,7 +323,6 @@
                                         <li> Science des matériaux : recherche, développement et production de nouveaux (multi-)matériaux</li> 
                                         <li> Conception assistée par ordinateur,  modélisation et qualité</li>
                                     </ul>   
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -351,7 +346,6 @@
                                         <li> Nombreux domaines de compétences allant de la mécanique à l’électronique, l’automatisme ou bien l’informatique</li> 
                                         <li> Liens importants avec la gestion de la production ou de la qualité en entreprises</li>
                                     </ul>   
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -369,8 +363,8 @@
                     <h1 class="title-page">Méthodologie</h1>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12">
-                        <div id="bloc">
+                    <div class="col-xs-12 col-sm-12 col-md-12 bloc">
+                        <div id="bloc-engagements">
                             <ul class="big-list-margin">
                                 <li class="list-style-none"><h3>Nos Engagements</h3> </li>
                                 <li class="list-style-none"><h4> Polyenco s'engage à : </h4></li>
@@ -593,7 +587,7 @@
                                     <li> Campus de la Doua </li>
                                     <li> 15 boulevard André Latarjet </li>
                                     <li> Villeurbanne - 69622 </li>
-                                    </h5>
+                                </ul>
                             </div>
                         </div>
                         <div class="row">
@@ -677,7 +671,7 @@
                             <div class="row">
                                 <div class="col-xs-12 col-sm-12 col-md-12">
                                     <div class="form-group">
-                                        <textarea type="text" placeholder="Message" class="form-control" name="contact_message" id="contact_message" rows="10"  onchange="testMessage()" required ></textarea>
+                                        <textarea  placeholder="Message" class="form-control" name="contact_message" id="contact_message" rows="10"  onchange="testMessage()" required ></textarea>
                                     </div>
                                 </div>
                             </div>
