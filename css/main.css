@@ -842,7 +842,7 @@ nav#menu #menu-nav li a#menu6:hover{
 
 #social-area #social ul li {
     display: inline-block;
-    margin-left: 2%;
+    margin-left: 3%;
     list-style: none;
     cursor: pointer;
 }
@@ -1238,7 +1238,7 @@ footer .credits {
 
 @media (max-width: 620px){
     #home-slider #slidecaption {
-        line-height: 80px;
+        line-height: 60px;
     }
     #home-slider .slide-content {
         font-size: 40px;
@@ -1251,35 +1251,5 @@ footer .credits {
     }
     #home-slider .slide-content {
         font-size: 30px;
-    }
-}
-
-/* ==================================================
-   Section Travaux
-================================================== */
-
-#Travaux{
-    position: absolute;
-    z-index: 1;
-    top: 15%;
-    width: 100%;
-}
-
-#Travaux h3 {
-    color: #FFF;
-    z-index: 2;
-    text-align: center;
-    margin-top: 20px;
-}
-
-#Travaux img {
-    width: auto; 
-}
-
-@media (max-width: 400px) {
-    #Travaux h3 {
-        line-height: 20px;
-        font-size: 20px;
-        margin-top: 10px;
     }
 }
