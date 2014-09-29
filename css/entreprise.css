@@ -326,6 +326,9 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     text-align: center;
     vertical-align: middle;
     width: auto;
+    border:2px solid #66afe9;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 #reponse .alert-danger {
