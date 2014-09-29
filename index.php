@@ -16,7 +16,7 @@
         <meta name="description" content="Site Web de la Junior-Entreprise Polyenco" />
         <meta name="author" content="Etudiants de Polyenco" />
 
-        <title>Accueil de Polyenco</title> 
+        <title>Polyenco</title> 
 
 
         <!-- Mobile Specifics -->

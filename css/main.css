@@ -695,7 +695,8 @@ nav#menu #menu-nav li a#menu6:hover{
 
 .title-page {
     text-align: center;
-    margin-bottom: 50px;	
+    margin-bottom: 50px;
+    font-weight: 500;
 }
 
 .title-page .title {
