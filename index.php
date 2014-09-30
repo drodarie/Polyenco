@@ -127,8 +127,7 @@
 
 
         ﻿<!-- Homepage Slider -->
-        <div id="home-slider">	
-            <div class="overlay"></div>
+        <div id="home-slider">
             <div class="slider-text">
                 <div id="slidecaption"></div>
             </div>   

@@ -1,0 +1,11 @@
+a.btn.btn-primary.btn-lg{
+    margin: auto;
+    background-color: rgb(138, 138, 138);
+    border-color: #B3B3B3;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
