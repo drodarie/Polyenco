@@ -148,10 +148,10 @@
                 <div class="row">
                     <nav id="social">
                         <ul>
-                            <li><a href="https://twitter.com/Polyenco" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
-                            <li><a href="https://www.facebook.com/Polyenco" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
-                            <li><a href="https://plus.google.com/112643057659135338279/posts" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
-                            <li><a href="https://www.linkedin.com/company/1470627?trk=tyah&amp;trkInfo=tarId%3A1393405148288%2Ctas%3APolyenco%2Cidx%3A2-1-2" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+                            <li><a href="https://twitter.com/Polyenco"><span class="font-icon-social-twitter" title="Notre Twitter"></span></a></li>
+                            <li><a href="https://www.facebook.com/Polyenco"><span class="font-icon-social-facebook" title="Notre Facebook"></span></a></li>
+                            <li><a href="https://plus.google.com/112643057659135338279/posts"><span class="font-icon-social-google-plus" title="Notre Google+"></span></a></li>
+                            <li><a href="https://www.linkedin.com/company/1470627?trk=tyah&amp;trkInfo=tarId%3A1393405148288%2Ctas%3APolyenco%2Cidx%3A2-1-2"><span class="font-icon-social-linkedin" title="Notre LinkedIn"></span></a></li>
                         </ul>
                     </nav>
                 </div>
