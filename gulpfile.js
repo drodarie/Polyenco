@@ -23,8 +23,10 @@ gulp.task("build", ["move", "html", "css", "js"]);
 
 gulp.task("dev", ["html", "css-dev", "js-dev", "server"], function(){
 	livereload.listen({ basePath: 'dist' });
-	gulp.watch('css/*.css', ['css']);
-}); 
+	gulp.watch('css/*.css', ['css-dev']);
+	gulp.watch('js/*.js', ['js-dev']);
+	gulp.watch('*.php', ['move']);
+});
 
 gulp.task('server', function(done) {
   http.createServer(
