@@ -261,7 +261,7 @@ h3.spec {
     background: #2F3238;
     height: 50px;
     bottom: 0;
-    z-index: 2;
+    z-index: 101;
 }
 
 #home-slider #nextslide,
