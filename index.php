@@ -27,52 +27,33 @@
         <!-- Mobile Internet Explorer ClearType Technology -->
         <!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
 
-        <!-- Bootstrap -->
+
+        <!-- build:css css/combined.css -->
         <link href="Librairies/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="Librairies/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-
-        <!-- Supersized -->
         <link href="Librairies/brushed/_include/css/supersized.css" rel="stylesheet">
         <link href="Librairies/brushed/_include/css/supersized.shutter.css" rel="stylesheet">
-
-        <!-- FancyBox -->
         <link href="Librairies/brushed/_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
-
-        <!-- Font Icons -->
         <link href="Librairies/brushed/_include/css/fonts.css" rel="stylesheet">
-
-        <!-- Shortcodes -->
         <link href="Librairies/brushed/_include/css/shortcodes.css" rel="stylesheet">
-
-        <!-- Google Font -->
-        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
-
-        <!-- Time Lines -->
         <link href="Librairies/brushed/_include/css/timeline.css" rel="stylesheet">
-        <!-- Main Style -->
         <link href="css/main.css" rel="stylesheet">
-
-        <!-- Responsive -->
         <link href="Librairies/brushed/_include/css/responsive.css" rel="stylesheet">
-
-        <!-- Page Style -->
         <link href="css/entreprise.css" rel="stylesheet">
+        <!-- endbuild -->
+
+        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
 
         <!-- Fav Icon -->
         <link rel="icon" type="image/png" href="img/Favicon.png" />
         <link rel="shortcut icon" href="img/Favicon.png" />
 
-        <link rel="apple-touch-icon" href="#">
-        <link rel="apple-touch-icon" sizes="114x114" href="#">
-        <link rel="apple-touch-icon" sizes="72x72" href="#">
-        <link rel="apple-touch-icon" sizes="144x144" href="#">
-
         <!-- Modernizr -->
-        <script src="Librairies/brushed/_include/js/js/modernizr.js"></script>
+        <script src="Librairies/brushed/_include/js/modernizr.js"></script>
 
         <!-- Analytics -->
         <script>
-            (function(i, s, o, g, r, a, m) {
+            /*(function(i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r;
                 i[r] = i[r] || function() {
                     (i[r].q = i[r].q || []).push(arguments)
@@ -85,7 +66,7 @@
             })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
             ga('create', 'UA-43036950-1', 'auto');
             ga('require', 'displayfeatures');
-            ga('send', 'pageview');
+            ga('send', 'pageview');*/
         </script>
         <!-- End Analytics -->
 
@@ -702,9 +683,11 @@
         <!-- End Footer -->
 
         <input type="hidden" id="webroot" value="/">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+        <!-- build:js js/combined.js -->
         <script src="js/download_text.js"></script> <!-- JS for displaying the text of download -->
         <script src="js/form_entreprise.js"></script> <!-- JS for the Form -->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
         <script src="Librairies/bootstrap/js/bootstrap.min.js"></script> <!-- Bootstrap -->
         <script src="Librairies/brushed/_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
         <script src="Librairies/brushed/_include/js/waypoints.js"></script> <!-- WayPoints -->
@@ -715,5 +698,7 @@
         <script src="Librairies/brushed/_include/js/jquery.tweet.js"></script> <!-- Tweet -->
         <script src="Librairies/brushed/_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
         <script src="js/main.js"></script> <!-- Default JS -->
+        <!-- endbuild -->
+
         <!-- End Js -->
     </body>
