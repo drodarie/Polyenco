@@ -109,7 +109,7 @@
 	}
 	
 	.type-work {
-		background: url(../img/filter-icon.png) no-repeat;
+		background: url(/Librairies/brushed/_include/img/filter-icon.png) no-repeat;
 		width: 16px;
 		height: 16px;
 		display: inline-block;
@@ -254,7 +254,7 @@
 	}
 	
 	.type-work {
-		background: url(../img/filter-icon.png) no-repeat;
+		background: url(/Librairies/brushed/_include/img/filter-icon.png) no-repeat;
 		width: 16px;
 		height: 16px;
 		display: inline-block;
