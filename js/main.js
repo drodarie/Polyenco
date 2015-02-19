@@ -440,3 +440,5 @@ $(window).resize(function(){
 });
 
 });
+
+$("img.img-responsive.lazy").lazyload();

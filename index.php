@@ -196,7 +196,7 @@
                         <div class="accordion-group">
                             <div class="accordion-heading accordionize">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#firstArea">
-                                    <img src="img/Informatique.svg" class="img-responsive" alt="Informatique"><br>
+                                    <img data-original="img/Informatique.svg" class="img-responsive lazy" alt="Informatique"><br>
                                     <h4>Informatique</h4><br>
                                     <span class="font-icon-arrow-simple-down"></span>
                                 </a>
@@ -220,7 +220,7 @@
                         <div class="accordion-group">
                             <div class="accordion-heading accordionize">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#secondArea">
-                                    <img src="img/MAM.svg" class="img-responsive" alt="Mathématiques Appliquées et Modélisation"><br>
+                                    <img data-original="img/MAM.svg" class="img-responsive lazy" alt="Mathématiques Appliquées et Modélisation"><br>
                                     <h4>Mathématiques Appliquées et Modélisation</h4>
                                     <span class="font-icon-arrow-simple-down"></span>
                                 </a>
@@ -243,7 +243,7 @@
                         <div class="accordion-group">
                             <div class="accordion-heading accordionize">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#thirdArea">
-                                    <img src="img/GBM.svg" class="img-responsive" alt="Génie Biomédical"><br>
+                                    <img data-original="img/GBM.svg" class="img-responsive lazy" alt="Génie Biomédical"><br>
                                     <h4>Génie Biomédical</h4><br>
                                     <span class="font-icon-arrow-simple-down"></span>
                                 </a>
@@ -267,7 +267,7 @@
                         <div class="accordion-group">
                             <div class="accordion-heading accordionize">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#fourthArea">
-                                    <img src="img/Mecanique.svg" class="img-responsive" alt="Mécanique"><br>
+                                    <img data-original="img/Mecanique.svg" class="img-responsive lazy" alt="Mécanique"><br>
                                     <h4>Mécanique</h4><br>
                                     <span class="font-icon-arrow-simple-down"></span>
                                 </a>
@@ -290,7 +290,7 @@
                         <div class="accordion-group">
                             <div class="accordion-heading accordionize">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#fifthArea">
-                                    <img src="img/Materiaux.svg" class="img-responsive" alt="Matériaux et Ingénierie des Surfaces"><br>
+                                    <img data-original="img/Materiaux.svg" class="img-responsive lazy" alt="Matériaux et Ingénierie des Surfaces"><br>
                                     <h4 id="long">Matériaux et Ingénierie des Surfaces</h4>
                                     <span class="font-icon-arrow-simple-down"></span>
                                 </a>
@@ -313,7 +313,7 @@
                         <div class="accordion-group last">
                             <div class="accordion-heading accordionize">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#sixthArea">
-                                    <img src="img/SI.svg" class="img-responsive" alt="Systèmes Industriels"><br>
+                                    <img data-original="img/SI.svg" class="img-responsive lazy" alt="Systèmes Industriels"><br>
                                     <h4>Systèmes Industriels</h4><br>
                                     <span class="font-icon-arrow-simple-down"></span>
                                 </a>
@@ -363,7 +363,7 @@
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
                                         <h4>Premier contact</h4>
-                                        <img class="img-responsive" src="img/Methodologie/Contact.jpg" alt="Contact"/>
+                                        <img class="img-responsive lazy" data-original="img/Methodologie/Contact.jpg" alt="Contact"/>
                                     </div>
                                     <div class="timeline-body">
                                         <p>
@@ -379,7 +379,7 @@
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
                                         <h4>Entretien</h4>
-                                        <img class="img-responsive" src="img/Methodologie/Meeting.jpg" alt="Meeting"/>
+                                        <img class="img-responsive lazy" data-original="img/Methodologie/Meeting.jpg" alt="Meeting"/>
                                     </div>
                                     <div class="timeline-body">
                                         <p>
@@ -394,7 +394,7 @@
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
                                         <h4>Proposition commerciale</h4>
-                                        <img class="img-responsive" src="img/Methodologie/Signature.jpg" alt="Signature"/>
+                                        <img class="img-responsive lazy" data-original="img/Methodologie/Signature.jpg" alt="Signature"/>
                                     </div>
                                     <div class="timeline-body">
                                         <p>
@@ -410,7 +410,7 @@
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
                                         <h4>Réalisation</h4>
-                                        <img class="img-responsive" src="img/Methodologie/Clavier.jpg" alt="Réalisation"/>
+                                        <img class="img-responsive lazy" data-original="img/Methodologie/Clavier.jpg" alt="Réalisation"/>
                                     </div>
                                     <div class="timeline-body">
                                         <p>
@@ -426,7 +426,7 @@
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>Validation</h4>
-                                    <img class="img-responsive" src="img/Methodologie/Check.jpg" alt="Validation"/>
+                                    <img class="img-responsive lazy" data-original="img/Methodologie/Check.jpg" alt="Validation"/>
                                 </div>
                                 <div class="timeline-body">
                                     <p>
@@ -558,7 +558,7 @@
                         </div>
                         <div class="row">
                             <div class="col-xs-8 col-xs-offset-2 col-sm-12 col-sm-offset-0 col-md-6 col-md-offset-0">
-                                <img src="img/polytech.jpg" class="img-responsive" alt="Polytech Lyon">
+                                <img data-original="img/polytech.jpg" class="img-responsive lazy" alt="Polytech Lyon">
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-6">
                                 <ul class="big-list-style-none adresse ">
@@ -697,6 +697,7 @@
         <script src="Librairies/brushed/_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
         <script src="Librairies/brushed/_include/js/jquery.tweet.js"></script> <!-- Tweet -->
         <script src="Librairies/brushed/_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+        <script src="js/jquery.lazyload.js"></script> <!-- Plugin for lazyloading images -->
         <script src="js/main.js"></script> <!-- Default JS -->
         <!-- endbuild -->
 
