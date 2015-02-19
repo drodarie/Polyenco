@@ -698,6 +698,7 @@
         <script src="Librairies/brushed/_include/js/jquery.tweet.js"></script> <!-- Tweet -->
         <script src="Librairies/brushed/_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
         <script src="js/jquery.lazyload.js"></script> <!-- Plugin for lazyloading images -->
+        <script src="js/maps.lazyload.js"></script> <!-- Plugin for lazyloading Google maps -->
         <script src="js/main.js"></script> <!-- Default JS -->
         <!-- endbuild -->
 

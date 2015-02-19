@@ -442,3 +442,6 @@ $(window).resize(function(){
 });
 
 $("img.img-responsive.lazy").lazyload();
+
+//http://osvaldas.info/lazy-loading-google-maps
+$(".map").lazyLoadGoogleMaps();
