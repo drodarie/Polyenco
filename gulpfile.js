@@ -1,11 +1,11 @@
-var gulp = require("gulp")
+var gulp = require("gulp"),
 	minifyCSS = require("gulp-minify-css"),
 	uglify = require("gulp-uglify"),
 	useref = require("gulp-useref"),
 	plumber = require("gulp-plumber"),
 	livereload = require("gulp-livereload"),
 	sourcemaps = require("gulp-sourcemaps"),
-	clean = require("gulp-clean")
+	clean = require("gulp-clean"),
 	http = require("http"),
 	st = require("st");
 
@@ -25,7 +25,7 @@ gulp.task("dev", ["html", "css-dev", "js-dev", "server"], function(){
 	livereload.listen({ basePath: 'dist' });
 	gulp.watch('css/*.css', ['css-dev']);
 	gulp.watch('js/*.js', ['js-dev']);
-	gulp.watch('*.php', ['move']);
+	gulp.watch('*.php', ['move-dev']);
 });
 
 gulp.task('server', function(done) {
@@ -47,6 +47,11 @@ gulp.task("rename", ["clean"], function(){
 });
 
 gulp.task("move", ["rename"], function(){
+	return gulp.src(filesToMove, { base: './' })
+		.pipe(gulp.dest("dist"));
+});
+
+gulp.task("move-dev", function(){
 	return gulp.src(filesToMove, { base: './' })
 		.pipe(gulp.dest("dist"));
 });
