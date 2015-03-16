@@ -25,7 +25,7 @@ gulp.task("dev", ["html", "css-dev", "js-dev", "server"], function(){
 	livereload.listen({ basePath: 'dist' });
 	gulp.watch('css/*.css', ['css-dev']);
 	gulp.watch('js/*.js', ['js-dev']);
-	gulp.watch('*.php', ['move-dev']);
+	gulp.watch('*.php', ['html']);
 });
 
 gulp.task('server', function(done) {
@@ -47,11 +47,6 @@ gulp.task("rename", ["clean"], function(){
 });
 
 gulp.task("move", ["rename"], function(){
-	return gulp.src(filesToMove, { base: './' })
-		.pipe(gulp.dest("dist"));
-});
-
-gulp.task("move-dev", function(){
 	return gulp.src(filesToMove, { base: './' })
 		.pipe(gulp.dest("dist"));
 });

@@ -7,13 +7,13 @@
     <head>
         <!-- Meta Tags -->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="description" content="Polyenco est la Junior-Entreprise de Polytech Lyon. 
+        <meta name="description" content="Polyenco est la Junior-Industrie de Polytech Lyon. 
 		Polyenco met au service des entreprises le savoir-faire des élèves de Polytech, pour réaliser
               leurs projets en ingénierie." />
         <meta name="keywords" content="polyenco, junior, entreprise, CNJE, polytech, étudiant,
               association, projet, informatique, mécanique, industrie, matériaux, biomédical, Lyon, je" />
         <meta name="language" content="fr-FR" />
-        <meta name="description" content="Site Web de la Junior-Entreprise Polyenco" />
+        <meta name="description" content="Site Web de la Junior-Industrie Polyenco" />
         <meta name="author" content="Etudiants de Polyenco" />
 
         <title>Polyenco</title> 
@@ -152,10 +152,10 @@
                 </div>
 
                 <div id="bloc" class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-7">
+                    <div class="col-xs-12 col-sm-12 col-md-8">
                         <img src="img/Logo.svg" class="img-responsive" alt="Polyenco">
                         <ul  class="big-list-style-none small-list-margin">
-                            <li>Polyenco, la junior-entreprise de Polytech Lyon, est administrée par ses étudiants.</li>
+                            <li>Polyenco, la junior-industrie de Polytech Lyon, est administrée par ses étudiants.</li>
                             <li>Nous nous chargeons de réaliser, pour le bénéfice de clients variés, des projets faisant appel aux connaissances acquises au sein de notre formation.</li>
                             <li>Avec ses six filières, notre école forme en effet de futurs ingénieurs compétents et qualifiés.
                                 Ce savoir-faire diversifié permet d'effectuer des missions telles que la réalisation ou la maintenance de sites internet, d'applications en informatique industrielle ou médicale, 
@@ -163,13 +163,10 @@
                             <li>Polyenco offre ainsi un lien privilégié entre entreprises et étudiants, en mettant au service des entreprises les compétences et le professionnalisme des élèves de Polytech.</li>
                         </ul>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-5">
-                        <img src="img/J-E.png" class="img-responsive" alt="Junior Entreprise">
+                    <div class="col-xs-12 col-sm-12 col-md-4">
                         <ul  class="big-list-style-none small-list-margin">
-                            <li>Une <b>Junior-Entreprise</b> est une association économique et pédagogique à but non lucratif.</li>
-                            <li>Dépendante d'une école ou d'une université, elle permet aux étudiants de réaliser des études grâce aux compétences acquises au sein de leur établissement, et cela pour une clientèle très variée.</li>
-                            <li>L'ensemble des Junior-entreprise est regroupé autour de la Confédération Nationale des Junior-Entreprises (CNJE) dont le rôle est d'assurer que ces associations respectent les chartes de qualité et de déontologie.</li>
-                            <li>Plus d'informations sur <a href="http://www.junior-entreprises.com/" target="_blank">le site officiel de la CNJE</a>.</li>
+                            <li>Une <b>Junior-Industrie</b> est une association économique et pédagogique à but non lucratif.</li>
+                            <li style="margin-top: 30px;">Dépendante d'une école ou d'une université, elle permet aux étudiants de réaliser des études grâce aux compétences acquises au sein de leur établissement, et cela pour une clientèle très variée.</li>
                         </ul>
                     </div>
                 </div>
@@ -678,7 +675,7 @@
 
         <!-- Footer -->
         <footer>
-            <p class="credits">&copy;2014 Polyenco. All rights reserved</p>
+            <p class="credits">&copy;2015 Polyenco. All rights reserved</p>
         </footer>
         <!-- End Footer -->
 
