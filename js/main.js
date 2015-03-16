@@ -24,7 +24,7 @@ BRUSHED.mobileNav = function(){
 			$('#mobile-nav').removeClass('open');	
 		}
 	}
-}
+};
 
 BRUSHED.listenerMenu = function(){
 	$('#mobile-nav').on('click', function(e){
@@ -42,7 +42,7 @@ BRUSHED.listenerMenu = function(){
 		$('#mobile-nav').removeClass('open');
 		$('#navigation-mobile').slideUp(350, 'easeOutExpo');
 	});
-}
+};
 
 
 /* ==================================================
@@ -91,7 +91,7 @@ BRUSHED.slider = function(){
 
 	});
 
-}
+};
 
 
 /* ==================================================
@@ -103,7 +103,7 @@ BRUSHED.nav = function(){
         $('.plaquette').waypoint('sticky',{
             offset: 60
         });
-}
+};
 
 /* ==================================================
    Filter Works
@@ -146,7 +146,7 @@ BRUSHED.filter = function (){
 			options[ key ] = value;
 			if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {
 			  // changes in layout modes need extra logic
-			  changeLayoutMode( $this, options )
+			  changeLayoutMode( $this, options );
 			} else {
 			  // otherwise, apply new options
 			  $container.isotope( options );
@@ -155,7 +155,7 @@ BRUSHED.filter = function (){
 			return false;
 		});
 	}
-}
+};
 
 
 /* ==================================================
@@ -184,7 +184,7 @@ BRUSHED.fancyBox = function(){
 			}
 		});
 	}
-}
+};
 
 
 /* ==================================================
@@ -214,7 +214,7 @@ BRUSHED.contactForm = function(){
 		});
 		return false;
 	});
-}
+};
 
 
 /* ==================================================
@@ -247,7 +247,7 @@ BRUSHED.tweetFeed = function(){
 	  ticker();
 	});
 
-}
+};
 
 
 /* ==================================================
@@ -264,7 +264,7 @@ BRUSHED.menu = function(){
 		easing: 'easeOutExpo',
 		filter: ':not(.external)'
 	});
-}
+};
 
 /* ==================================================
    Next Section
@@ -277,7 +277,7 @@ BRUSHED.goSection = function(){
 		$('body, html').animate({scrollTop : $target}, 750, 'easeOutExpo');
 		return false;
 	});
-}
+};
 
 /* ==================================================
    GoUp
@@ -290,7 +290,7 @@ BRUSHED.goUp = function(){
 		$('body, html').animate({scrollTop : $target}, 750, 'easeOutExpo');
 		return false;
 	});
-}
+};
 
 
 /* ==================================================
@@ -306,7 +306,7 @@ BRUSHED.scrollToTop = function(){
 	$arrow.click(function(e) {
 		$('body,html').animate({ scrollTop: "0" }, 750, 'easeOutExpo' );
 		e.preventDefault();
-	})
+	});
 
 	$(window).scroll(function() {
 		didScroll = true;
@@ -323,7 +323,7 @@ BRUSHED.scrollToTop = function(){
 			}
 		}
 	}, 250);
-}
+};
 
 /* ==================================================
    Thumbs / Social Effects
@@ -346,7 +346,7 @@ BRUSHED.utils = function(){
       	$(this).addClass('active');
     });
 
-}
+};
 
 /* ==================================================
    Accordion
@@ -368,7 +368,7 @@ BRUSHED.accordion = function(){
 	 	}
 		event.preventDefault();
 	});
-}
+};
 
 /* ==================================================
    Toggle
@@ -388,7 +388,7 @@ BRUSHED.toggle = function(){
 	 	}
 		event.preventDefault();
 	});
-}
+};
 
 /* ==================================================
    Tooltip
@@ -396,7 +396,7 @@ BRUSHED.toggle = function(){
 
 BRUSHED.toolTip = function(){ 
     $('a[data-toggle=tooltip]').tooltip();
-}
+};
 
 
 /* ==================================================
@@ -440,6 +440,10 @@ $(window).resize(function(){
 });
 
 });
+
+function showText(){
+    $("#download").toggle("slide");
+};
 
 $("img.img-responsive.lazy").lazyload();
 

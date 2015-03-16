@@ -53,7 +53,7 @@
 
         <!-- Analytics -->
         <script>
-            /*(function(i, s, o, g, r, a, m) {
+            (function(i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r;
                 i[r] = i[r] || function() {
                     (i[r].q = i[r].q || []).push(arguments)
@@ -66,7 +66,7 @@
             })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
             ga('create', 'UA-43036950-1', 'auto');
             ga('require', 'displayfeatures');
-            ga('send', 'pageview');*/
+            ga('send', 'pageview');
         </script>
         <!-- End Analytics -->
 
@@ -137,6 +137,16 @@
                     </nav>
                 </div>
             </div>
+
+            <!-- Plaquette à télécharger-->
+            <div class="plaquette" id="plaquette" onclick="showText()">
+                <h3>
+                    <span class="glyphicon glyphicon-download-alt"></span>
+                    <a id="download" href="img/Plaquette.pdf" target="_blank">Télécharger notre plaquette</a>
+                </h3>
+            </div>
+            <!-- Fin Plaquette à télécharger-->
+            
         </div>
         <!-- Fin Section Accueil -->
 
@@ -180,14 +190,6 @@
                 <div class="row">
                     <h1 class="title-page">Compétences</h1>
                 </div>
-                <!-- Plaquette à télécharger-->
-                <div class="plaquette" id="plaquette" onclick="showText()">
-                    <h3>
-                        <span class="glyphicon glyphicon-download-alt"></span>
-                        <a id="download" href="img/Plaquette.jpg" target="_blank">Télécharger notre plaquette</a>
-                    </h3>
-                </div>
-                <!-- Fin Plaquette à télécharger-->
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="accordion-group">
