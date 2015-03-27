@@ -13,7 +13,9 @@ var filesToMove = [
 	"./traitement_mail.php",
 	"img/**/*",
 	"Librairies/brushed/_include/js/modernizr.js",
-	"Librairies/brushed/_include/img/**/*"
+	"Librairies/brushed/_include/img/**/*",
+    "./.htaccess",
+    "./404.html"
 ];
 
 /*Global tasks*/
