@@ -1,0 +1,35 @@
+#Accueil .container div
+{
+  height: 400px;
+  line-height: 400px;
+}
+
+#Accueil span
+{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 14px;
+  
+}
+
+#Recrutement #bloc{
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #d4d4d4;
+    -webkit-box-shadow: 0 1px 6px #007c3c;
+    box-shadow: 0 1px 6px #007c3c;
+    border-radius: 4px;
+}
+
+#Tombola #bloc{
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #d4d4d4;
+    -webkit-box-shadow: 0 1px 6px #D6B52E;
+    box-shadow: 0 1px 6px #D6B52E;
+    border-radius: 4px;
+}
+
+#supersized-loader{
+	background: none;
+}

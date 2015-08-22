@@ -699,6 +699,7 @@
         <script src="js/jquery.lazyload.js"></script> <!-- Plugin for lazyloading images -->
         <script src="js/maps.lazyload.js"></script> <!-- Plugin for lazyloading Google maps -->
         <script src="js/main.js"></script> <!-- Default JS -->
+        <script src="js/initIndex.js"></script> <!-- Init index -->
         <!-- endbuild -->
 
         <!-- End Js -->

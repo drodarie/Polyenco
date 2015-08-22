@@ -56,7 +56,7 @@ gulp.task("move", ["rename"], function(){
 gulp.task("html", function(){
 	var assets = useref.assets();
 
-	return gulp.src('./index.php')
+	return gulp.src('./*.php')
         .pipe(assets)
         .pipe(assets.restore())
         .pipe(useref())
