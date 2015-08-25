@@ -91,6 +91,7 @@
                         <li><a href="#Presentation" id="menu2">Qui sommes-nous?</a></li>
                         <li><a href="#Recrutement" id="menu3">Recrutement</a></li>
                         <li><a href="#Tombola" id="menu4">Tombola</a></li>
+                        <li><a href="#Contact" id="menu5">Contact</a></li>
                     </ul>
                 </nav>    
             </div>
@@ -102,21 +103,10 @@
             <div class="container">
                 <div>   
                     <span>
-                        <h1>Bienvenue sur le site de Polyenco consacré au recrutement de septembre 2015</h1>
+                        <h1>Polyenco recrute!</h1>
+                        <h2>Découvrez l'univers des Juniors et boostez votre CV en prenant part à une association</h2>
                     </span>
                 </div>  
-            </div>
-            <div id="social-area" class="page">
-                <div class="row">
-                    <nav id="social">
-                        <ul>
-                            <li><a href="https://twitter.com/Polyenco"><span class="font-icon-social-twitter" title="Notre Twitter"></span></a></li>
-                            <li><a href="https://www.facebook.com/Polyenco"><span class="font-icon-social-facebook" title="Notre Facebook"></span></a></li>
-                            <li><a href="https://plus.google.com/112643057659135338279/posts"><span class="font-icon-social-google-plus" title="Notre Google+"></span></a></li>
-                            <li><a href="https://www.linkedin.com/company/1470627?trk=tyah&amp;trkInfo=tarId%3A1393405148288%2Ctas%3APolyenco%2Cidx%3A2-1-2"><span class="font-icon-social-linkedin" title="Notre LinkedIn"></span></a></li>
-                        </ul>
-                    </nav>
-                </div>
             </div>
         </div>
         <!-- Fin Section Accueil -->
@@ -156,6 +146,7 @@
                             <li>Nous recherchons principalement des personnes motivées et désireuses d'apprendre de nouvelles choses autour des entreprises.</li>
                             <li>De nombreux postes sont à pourvoir et chacun peut trouver sa place et apporter ses connaissances aux autres membres.</li>
                             <li>Pour plus d'informations, rencontrez-nous sur le stand organisé dans le hall de l'école ou contactez-nous par mail à <b>contact.polyenco@gmail.com</b></li>
+                            <li>Ce dernier aura lieu du lundi 31 août 2015 au mercredi 2 septembre 2015.</li>
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-4">
@@ -181,13 +172,39 @@
                         <ul  class="big-list-style-none small-list-margin">
                             <li>Pour célébrer la rentrée, Polyenco organise une tombola pour laquelle chacun est invité à participer.</li>
                             <li>Pour cela rien de plus simple, il vous suffit de venir nous voir sur le stand situé dans le hall de l'école les jours de rentrée.</li>
-                            <li>De nombreux lots sont à gagner... </li>
+                            <li>De nombreux lots sont à gagner dont notamment des places pour la soirée du BDE, des places de ciné et de nombreuses clé USB!</li>
+                            <li><a href="#"><h2>Cliquez ici pour tenter votre chance</h2></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Fin Section Tombola -->
+
+        <!-- Section Contact -->
+        <div id="Contact" class="page">
+            <div class="container">
+                <div>   
+                    <span>
+                        <h2>Vous pouvez nous contacter par mail à l'adresse suivante: contact.polyenco@gmail.com</h2>
+                        <h2>Suivez-nous également sur les réseaux sociaux pour être au courant des dernières nouvelles.</h2>
+                    </span>
+                </div>  
+            </div>
+            <div id="social-area" class="page">
+                <div class="row">
+                    <nav id="social">
+                        <ul>
+                            <li><a href="https://twitter.com/Polyenco"><span class="font-icon-social-twitter" title="Notre Twitter"></span></a></li>
+                            <li><a href="https://www.facebook.com/Polyenco"><span class="font-icon-social-facebook" title="Notre Facebook"></span></a></li>
+                            <li><a href="https://plus.google.com/112643057659135338279/posts"><span class="font-icon-social-google-plus" title="Notre Google+"></span></a></li>
+                            <li><a href="https://www.linkedin.com/company/1470627?trk=tyah&amp;trkInfo=tarId%3A1393405148288%2Ctas%3APolyenco%2Cidx%3A2-1-2"><span class="font-icon-social-linkedin" title="Notre LinkedIn"></span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Fin Section Contact -->
 
         <!-- Footer -->
         <footer>
