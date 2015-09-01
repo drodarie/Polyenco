@@ -33,29 +33,35 @@
 	background: none;
 }
 
-#Contact .page{
-    position: absolute;
-    z-index: 100;
-    top: 65%;
-    background: none;
-    text-align: center;
+#Contact {
+    padding-bottom: 0px;
     min-height: 0px;
 }
 
-h2{
-	text-align: center;
+#Contact #bloc{
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #d4d4d4;
+    -webkit-box-shadow: 0 1px 6px #D6B52E;
+    box-shadow: 0 1px 6px #D6B52E;
+    border-radius: 4px;
 }
 
-
-#Contact .container div
-{
-  height: 400px;
-  line-height: 400px;
+#Contact #contactBlock li{
+    text-align: center;
+    font-size: 25px;
 }
 
-#Contact span
-{
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 14px;
+#lienForm  h2:hover{
+    color: #D6B52E;
+}
+#Reseaux{
+    padding-top : 20px;
+}
+
+#Reseaux .page{
+    z-index: 100;
+    background: none;
+    text-align: center;
+    min-height: 0px;
 }

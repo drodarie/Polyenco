@@ -7,7 +7,7 @@
     <head>
         <!-- Meta Tags -->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="description" content="Polyenco est la Junior-Industrie de Polytech Lyon. 
+        <meta name="description" content="Polyenco est la Junior-Industrie de Polytech Lyon.
 		Polyenco met au service des entreprises le savoir-faire des élèves de Polytech, pour réaliser
               leurs projets en ingénierie." />
         <meta name="keywords" content="polyenco, junior, entreprise, CNJE, polytech, étudiant,
@@ -16,7 +16,7 @@
         <meta name="description" content="Site Web de la Junior-Industrie Polyenco" />
         <meta name="author" content="Etudiants de Polyenco" />
 
-        <title>Polyenco</title> 
+        <title>Polyenco</title>
 
 
         <!-- Mobile Specifics -->
@@ -93,7 +93,7 @@
                         <li><a href="#Tombola" id="menu4">Tombola</a></li>
                         <li><a href="#Contact" id="menu5">Contact</a></li>
                     </ul>
-                </nav>    
+                </nav>
             </div>
         </header>
         <!-- Fin du Header -->
@@ -101,12 +101,12 @@
         <!-- Section Accueil -->
         <div id="Accueil" class="page">
             <div class="container">
-                <div>   
+                <div>
                     <span>
                         <h1>Polyenco recrute!</h1>
                         <h2>Découvrez l'univers des Juniors et boostez votre CV en prenant part à une association</h2>
                     </span>
-                </div>  
+                </div>
             </div>
         </div>
         <!-- Fin Section Accueil -->
@@ -173,7 +173,7 @@
                             <li>Pour célébrer la rentrée, Polyenco organise une tombola pour laquelle chacun est invité à participer.</li>
                             <li>Pour cela rien de plus simple, il vous suffit de venir nous voir sur le stand situé dans le hall de l'école les jours de rentrée.</li>
                             <li>De nombreux lots sont à gagner dont notamment des places pour la soirée du BDE, des places de ciné et de nombreuses clé USB!</li>
-                            <li><a href="#"><h2>Cliquez ici pour tenter votre chance</h2></a></li>
+                            <li><a id="lienForm" href="https://docs.google.com/forms/d/1DcJGwl2dnPhyfVUYyiR9fVWf5KUQDxuRXX1sEgX38KU/viewform?edit_requested=true" target="_blank"><h2>Cliquez ici pour tenter votre chance</h2></a></li>
                         </ul>
                     </div>
                 </div>
@@ -184,13 +184,21 @@
         <!-- Section Contact -->
         <div id="Contact" class="page">
             <div class="container">
-                <div>   
-                    <span>
-                        <h2>Vous pouvez nous contacter par mail à l'adresse suivante: contact.polyenco@gmail.com</h2>
-                        <h2>Suivez-nous également sur les réseaux sociaux pour être au courant des dernières nouvelles.</h2>
-                    </span>
-                </div>  
+                <div class="row">
+                    <h1 class="title-page">Nous contacter</h1>
+                </div>
+
+                <div id="bloc" class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <ul  class="big-list-style-none small-list-margin" id="contactBlock">
+                            <li>Vous pouvez nous contacter par mail à l'adresse suivante: contact.polyenco@gmail.com</li>
+                            <li>Suivez-nous également sur les réseaux sociaux pour être au courant des dernières nouvelles.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+        </div>
+        <div id="Reseaux">
             <div id="social-area" class="page">
                 <div class="row">
                     <nav id="social">
