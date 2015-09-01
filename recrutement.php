@@ -28,7 +28,7 @@
         <!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
 
 
-        <!-- build:css css/combined.css -->
+        <!-- build:css css/recrutement.css -->
         <link href="Librairies/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="Librairies/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
         <link href="Librairies/brushed/_include/css/supersized.css" rel="stylesheet">
