@@ -52,9 +52,14 @@
     font-size: 25px;
 }
 
+h2{
+    text-align: center;
+}
+
 #lienForm  h2:hover{
     color: #D6B52E;
 }
+
 #Reseaux{
     padding-top : 20px;
 }

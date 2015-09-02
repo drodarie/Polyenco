@@ -1189,6 +1189,9 @@ footer .credits {
 		padding-right: 0px;	
 	}
 
+    .plaquette{
+        display: none;
+    }
 }
 
 @media (max-width: 1600px){
