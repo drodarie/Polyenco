@@ -4,6 +4,10 @@
   line-height: 400px;
 }
 
+.page{
+    min-height: 0px;
+}
+
 #Accueil span
 {
   display: inline-block;

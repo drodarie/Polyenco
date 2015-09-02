@@ -76,20 +76,13 @@
     </head>
 
     <body>
-        <!-- Splash Screen: écran d'attente -->
-        <div class="ole">
-            <section id="jSplash">
-                <div id="circle"></div>
-            </section>
-        </div>
-        <!-- Fin du Splash Screen -->
 
         <!-- Header -->
         <header>
             <div class="sticky-nav">
                 <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
                 <div id="logo">
-                    <a href="/recrutement.php" title="Polyenco"><img src="img/Recrutement.bmp" alt="Recrutement"></a>
+                    <a href="/recrutement.php" title="Polyenco"><img src="img/Recrutement.svg" alt="Recrutement"></a>
                 </div>
                 <nav id="menu">
                     <ul id="menu-nav">
