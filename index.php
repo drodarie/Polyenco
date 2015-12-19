@@ -82,7 +82,7 @@
             <div class="sticky-nav">
                 <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
                 <div id="logo">
-                    <a href="/recrutement.php" title="Polyenco"><img src="img/Recrutement.svg" alt="Recrutement"></a>
+                    <a href="/" title="Polyenco"><img src="img/Titre.svg" alt="Logo"></a>
                 </div>
                 <nav id="menu">
                     <ul id="menu-nav">
