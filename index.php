@@ -335,7 +335,7 @@
                     <h1 class="title-page">Méthodologie</h1>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 bloc">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
                         <div id="bloc-engagements">
                             <ul class="big-list-margin">
                                 <li class="list-style-none"><h3>Nos Engagements</h3> </li>
